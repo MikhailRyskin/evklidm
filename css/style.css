@@ -724,6 +724,21 @@ ul {
 
 /* Адаптивы */
 
+@media (min-width: 1025px) and (max-width: 1660px) {
+  .aboutus-left {
+    min-width: 48%;
+  }
+
+  .aboutus-left-info {
+    flex-direction: column;
+    }
+
+  .aboutus-left-paragraf {
+    margin-bottom: 10px;
+    margin-right: 0;
+    }
+  }
+
 @media (max-width: 1024px) {
   .container {
     max-width: 1024px;
